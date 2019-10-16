@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -26,5 +27,8 @@ public class MainActivity extends AppCompatActivity {
         rvMakanan.setLayoutManager(new LinearLayoutManager(this));
         MakananAdapter makananAdapter= new MakananAdapter(list);
         rvMakanan.setAdapter(makananAdapter);
+
+
     }
+
 }
