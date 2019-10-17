@@ -21,6 +21,8 @@ public class DetailActivity extends AppCompatActivity {
         String detail = getIntent().getStringExtra("detail");
         int gambar = getIntent().getIntExtra("gambar", 0);
 
+        getSupportActionBar().setTitle(nama + " | Khas Tegal");
+
         tvName = findViewById(R.id.tv_name);
         tvDetail = findViewById(R.id.tv_detail);
         imgPhoto = findViewById(R.id.imageView);
